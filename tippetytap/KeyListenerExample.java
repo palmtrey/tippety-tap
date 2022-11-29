@@ -47,7 +47,7 @@ public class KeyListenerExample extends Frame implements KeyListener{
             pressed = false;
         }
         
-    }
+    } 
 
     public void keyTyped(KeyEvent e){
         // I.setText("Key Typed");
