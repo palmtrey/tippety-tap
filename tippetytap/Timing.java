@@ -12,7 +12,7 @@ class Timing{
         chars.add(ch);
         pressTimes.add(pressTime);
         releaseTimes.add(releaseTime);
-    }
+    } 
 }
 
 
