@@ -57,7 +57,7 @@ public class KeyListenerExample extends Frame implements KeyListener{
         //System.out.println(input);
     }
     
-    public void passwordInfo(){
+    public boolean passwordValid(){
         //boolean flag = true;
         //compile the times down and compare with the stored times of the 
         //double sum;
@@ -68,6 +68,7 @@ public class KeyListenerExample extends Frame implements KeyListener{
         //double scaled = sum/deviation
         //if(mathetical range is not met)
             //flag = false;
+        //return flag;
     }
 
     public static void main(String[] args){
