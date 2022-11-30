@@ -43,6 +43,7 @@ public class KeyListenerExample extends Frame implements KeyListener{
         if (pressed){
             Date date = new Date();
             long time = date.getTime();
+            I.setText("Key Released");
             System.out.println(time);
             pressed = false;
         }
@@ -50,7 +51,16 @@ public class KeyListenerExample extends Frame implements KeyListener{
     } 
 
     public void keyTyped(KeyEvent e){
-        // I.setText("Key Typed");
+        //char input;
+        //input = text inputted somehow
+        //I.setText("Key Typed");
+        //System.out.println(input);
+    }
+    
+    public void passwordInfo(){
+        //sum all the times (down and up) to get a total time to input the password
+        
+        
     }
 
     public static void main(String[] args){
