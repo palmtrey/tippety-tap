@@ -58,9 +58,16 @@ public class KeyListenerExample extends Frame implements KeyListener{
     }
     
     public void passwordInfo(){
-        //sum all the times (down and up) to get a total time to input the password
-        
-        
+        //boolean flag = true;
+        //compile the times down and compare with the stored times of the 
+        //double sum;
+        //start loop
+          //double difference = math.abs(stored value - measured value)
+          //sum += sum;
+        //end loop
+        //double scaled = sum/deviation
+        //if(mathetical range is not met)
+            //flag = false;
     }
 
     public static void main(String[] args){
