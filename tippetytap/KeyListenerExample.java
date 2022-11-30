@@ -77,5 +77,10 @@ public class KeyListenerExample extends Frame implements KeyListener{
 
     public static void main(String[] args){
         new KeyListenerExample();
+        //valid = passwordValid();
+        //if(valid)
+            //System.out.println("Login successful");
+        //else
+            //Sytem.out.println("Login unsuccessful");
     }
 }
