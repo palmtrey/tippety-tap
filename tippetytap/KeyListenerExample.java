@@ -67,8 +67,11 @@ public class KeyListenerExample extends Frame implements KeyListener{
           //sum += sum;
         //end loop
         //double scaled = sum/deviation
-        //if(mathetical range is not met)
-            //flag = false;
+        //if(password characters are correct)
+            //if(mathetical range is not met)
+                //flag = false;
+            //else
+                //flag = true;
         //return flag;
     }
 
