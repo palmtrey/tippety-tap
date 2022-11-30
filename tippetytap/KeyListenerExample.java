@@ -55,6 +55,7 @@ public class KeyListenerExample extends Frame implements KeyListener{
         //input = text inputted somehow
         //I.setText("Key Typed");
         //System.out.println(input);
+        //String password += password or something like that to add char to password
     }
     
     public boolean passwordValid(){
