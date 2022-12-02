@@ -43,6 +43,7 @@ public class KeyListenerExample extends Frame implements KeyListener{
         if (pressed){
             Date date = new Date();
             long time = date.getTime();
+            I.setText("Key Released");
             System.out.println(time);
             pressed = false;
         }
@@ -50,13 +51,43 @@ public class KeyListenerExample extends Frame implements KeyListener{
     } 
 
     public void keyTyped(KeyEvent e){
+<<<<<<< HEAD
         if (pressed){
             System.out.println(e.getKeyChar());
         }
        
+=======
+        //char input;
+        //input = text inputted somehow
+        //I.setText("Key Typed");
+        //System.out.println(input);
+        //String password += password or something like that to add char to password
+    }
+    
+    public boolean passwordValid(){
+        //boolean flag = true;
+        //compile the times down and compare with the stored times of the 
+        //double sum;
+        //start loop
+          //double difference = math.abs(stored value - measured value)
+          //sum += sum;
+        //end loop
+        //double scaled = sum/deviation
+        //if(password characters are correct)
+            //if(mathetical range is not met)
+                //flag = false;
+            //else
+                //flag = true;
+        //return flag;
+>>>>>>> e851c34f92a8e9c16d6ac1f46d7121b92a3d4230
     }
 
     public static void main(String[] args){
         new KeyListenerExample();
+        //valid = passwordValid();
+        //if(valid)
+            //System.out.println("Login successful");
+        //else
+            //Sytem.out.println("Login unsuccessful");
     }
 }
