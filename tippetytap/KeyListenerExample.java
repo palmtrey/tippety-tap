@@ -50,7 +50,10 @@ public class KeyListenerExample extends Frame implements KeyListener{
     } 
 
     public void keyTyped(KeyEvent e){
-        // I.setText("Key Typed");
+        if (pressed){
+            System.out.println(e.getKeyChar());
+        }
+       
     }
 
     public static void main(String[] args){
